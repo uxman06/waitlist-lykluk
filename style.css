@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Rubik:wght@400;500;600;700&display=swap');
+html{
+font-family: 'Rubik', sans-serif;
+margin:  0px;
+border: none;
+}
+p{
+  font-size: 16px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+.nav img{
+  width: 4rem;
+}
+.nav a{
+  color: #9C02F8;
+  padding: 1rem;
+text-decoration: none;
+
+}
+.nav a:nth-child(even){
+  color: black
+}
+.divAfterNav{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin:auto;
+  margin-top: 4rem;
+}
+.joinInputDiv {
+  position: relative;
+  width: 60%;
+}
+::placeholder{
+  padding: 1rem;
+}
+.divAfterNav input{
+margin: 0px;
+padding: 0px;
+width: 100%;
+outline: none;
+height: 36px;
+border-radius: 8px;
+}
+.joinInputDiv .joinBtn{
+background-color: #9C02F8;
+color: white;
+position: absolute;
+top:0;
+right: 0px;
+z-index: 2;
+height: 38px;
+transform: translateX(3px);
+border-radius: 8px;
+outline: none;
+border: none;
+}
+.countDown{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  text-align: center;
+}
+.countDown h1{
+  background-color: #9C02F8;
+  padding: 4px;
+  color: white;
+  width: 50px;
+  border-radius: 9.35px;
+}
+.countDown{
+  color:#9C02F8;
+}
+.divAfterNav .text{
+  flex:60%
+}
+.divAfterNav .btns{
+  flex:40%;
+  position: relative;
+}
+
+.btns .google{
+  position: absolute;
+  top:90%;
+  left: 30%;
+  width:8rem;
+}
+.btns .apple{
+  position: absolute;
+  top:90%;
+  left: 70%;
+    width:8rem;
+}
+.centerLogosDiv{
+margin-top: 4rem;
+}
+.centerLogosDiv img{
+  width: 100%;
+}
+.middleSection{
+  position: relative;
+
+}
+.firstBlock{
+  width: 70%;
+  position: relative;
+
+}
+.firstBlock img{
+  position: absolute;
+  width: 40%;
+  left: 0;
+  top:0;
+border: none;
+}
+.firstBlock .phone{
+  position: absolute;
+  width: 15%;
+  left: 15%;
+  top:2rem;
+border: none;
+}
+.firstBlock .textSection{
+  position: relative;
+  width: 50%;
+  left: 40%;
+ top:4rem;
+}
+.textSection img{
+  width: 2rem;
+  position: relative;
+  left: 5%;
+  top:-1px;
+}
+.secondBlock{
+  left: 30%;
+
+  width: 70%;
+  margin-top: 10rem;
+  position: relative;
+}
+.secondBlock img{
+  position: absolute;
+  width: 30%;
+  right:  0;
+  top:0;
+border: none;
+}
+.secondBlock .textSection{
+  position: relative;
+  width: 50%;
+ left: 10%;
+ top:4rem;
+}
+.secondBlock .phone{
+  position: absolute;
+  width: 15%;
+  right: 10%;
+  top:2rem;
+border: none;
+}
+.secondBlock .shareLogo{
+  width: 2rem;
+  position: relative;
+  left: 5%;
+}
+.thirdBlock{
+  width: 70%;
+  position: relative;
+  margin-top: 10rem;
+}
+.thirdBlock img{
+width: 40%;
+position: absolute;
+width: 40%;
+bottom: : 0;
+top:0;
+border: none;
+}
+.thirdBlock .phone{
+  width: 15%;
+  left: 10%;
+}
+.thirdBlock .textSection{
+  position: relative;
+  width: 50%;
+  left: 40%;
+ top:5rem;
+}
+.thirdBlock .newFriendsLogo{
+  position: relative;
+  width: 2rem;
+  left: 5%;
+}
+.middleSectionBottomText{
+text-align: center;
+}
+.galleryFrames{
+  position: relative;
+    margin-top: 10vw;
+}
+.galleryFrames img{
+float: left;
+width: 20%;
+padding: 0px;
+margin: 0px;
+border: none;
+position: relative;
+}
+.frameText{
+  position: absolute;
+  top:  -60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  z-index: 2;
+  color: white;
+}
+.footer{
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+}
+.footer ul{
+  list-style-type: none;
+}
+.footer li{
+  padding: 0.2rem;
+}
+@media screen and (max-width: 1272px) {
+  .btns .google{
+
+    left: 20%;
+
+  }
+  .btns .apple{
+
+    left: 80%;
+
+  }
+}
+@media screen and (max-width: 980px) {
+
+  .nav a{
+  font-size: 16px;
+  }
+  .divAfterNav{
+    flex-direction: column;
+  }
+  .btns {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+  }
+  .btns .google{
+    position: relative;
+  left: auto;
+  }
+  .btns .apple{
+    position: relative;
+  left: auto;
+  }
+  .firstBlock .textSection{
+    width: 90%;
+  }
+  .secondBlock .textSection{
+    width: 90%;
+     left:   -30%;
+  }
+  .secondBlock img{
+    top:25%;
+  }
+  .secondBlock .phone{
+    top:3.2rem;
+  }
+  .thirdBlock .textSection{
+    width: 90%;
+  }
+    .thirdBlock img{
+      top: 35%;
+    }
+.footer div{
+  flex: 50%;
+}
+}
