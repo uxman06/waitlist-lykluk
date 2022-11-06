@@ -7,6 +7,9 @@ border: none;
 p{
   font-size: 16px;
 }
+a{
+  font-size: 16px;
+}
 .nav{
   display: flex;
   justify-content: space-between;
@@ -88,15 +91,17 @@ border: none;
 
 .btns .google{
   position: absolute;
-  top:90%;
+  top:93%;
   left: 30%;
   width:8rem;
+  height: 2.5rem;
 }
 .btns .apple{
   position: absolute;
   top:90%;
   left: 70%;
     width:8rem;
+      height: 2.5rem;
 }
 .centerLogosDiv{
 margin-top: 4rem;
